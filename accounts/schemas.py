@@ -19,5 +19,4 @@ class LoginSchema(BaseModel):
 
 class NoteSchema(BaseModel):
     title: str
-    description: str
-    user_id: int
+    description: str 
